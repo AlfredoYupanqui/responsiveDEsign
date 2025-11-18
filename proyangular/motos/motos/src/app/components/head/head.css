@@ -1,0 +1,23 @@
+/* 29. Creamos los ESTILOS para el HEADER o CABECERA de la página, Probamos linea a linea */
+header {    
+    background-color: #333;       
+    padding: 10px;    /* 30. Luego lo mejoras con 20px */
+    text-align: center; 
+}
+
+nav a {    
+    color: white;    
+    margin: 0 15px;     /* 31. Luego lo mejoras con 0 10px */
+    text-decoration: none; 
+    padding: 10px 20px;
+}
+
+nav a:hover {    
+    background-color: #ffffff; 
+
+    color: #000000;
+
+    border-radius: 20px;
+}
+
+/* 32. Vamos a los ESTILOS GENERALES STYLES.CSS */

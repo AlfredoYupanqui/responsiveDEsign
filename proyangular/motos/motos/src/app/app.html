@@ -1,0 +1,17 @@
+<!-- 20. Ahora eliminamos todo el contenido con CTRL+A y luego DELETE. -->
+<!-- 21. Ahora lo que haremos es llamar a los componentes Abrimos el archivo CLASE y buscamos el SELECTOR -->
+<!-- 22. Llamamos a los componentes HEADER Y FOOTER -->
+<app-head></app-head>
+
+<!-- 23. Indicar que los componentes en el SELECTOR empiezan con APP por que es el PREFIJO por defecto y esta en el ANGULAR.JSON   -->
+<!-- Creamos un MAIN para internamente mostramos todas las opciones de ENRUTAMIENTO -->
+<main>
+
+<!-- 24. Para ello colocamos la ETIQUETA DE ANGULAR PARA MOSTRAR LAS PAGINAS SEGUN EL ENRUTAMIENTO lo que creamos en el archivo APP.ROUTES TS (MOSTRAMOS EL ARCHIVO)-->
+    <router-outlet></router-outlet>
+
+</main>
+<app-footer></app-footer>
+
+<!-- 25 Lo probaremos para ello vamos al TERMINAL y TENEMOS DOS OPCIONES: ejecutamos el comando "ng serve -o" Ó Como nos indica el PACKAGE.JSON "npm start" -->
+<!-- 26. Identificamos que cuando llamamos a un pagina esta RECARGA, para evitar esto debemos ir al archivo HEADER.HTML y hacer las modificaciones necesarias. -->

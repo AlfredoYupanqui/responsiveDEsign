@@ -1,0 +1,24 @@
+/* 03 En este archivo de Estilos general pondremos el SELECTOR UNIVERSAL */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+/* 04. Vamos a los RECURSOS DE TRABAJO en APP, el archivo APP/APP.ROUTES.TS */
+
+/* 33. Luego volvemos a los ESTILOS para tipo de letra */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #ab1f1f;
+    color: #d3e01e;
+    line-height: 1.6;
+    padding: 20px;
+}   
+
+/* 34. Ahora cargaremos imagenes. Vemos que en archivo ANGULAR.JSON ya tenemos la carpeta ASSETS que contiene los recursos estaticos IMAGENES y VIDEOS de mi Sitio Web esta cargada por defecto para que vayan en la capeta PUBLIC donde crearemos la carpeta IMG y llamarlo desde la PAGINA HOME.HTML*/
